@@ -371,12 +371,10 @@ hr {
 /* ===========================
 --- Intro
 ============================ */
-
 .intro {
   width:100%;
   position:relative;
-
-  background: url(http://rd.work-bench.com/images/r-conference-bg.png) no-repeat top center;
+  background: image-url('r-conference-bg.jpg') no-repeat top center;
   background-size: 100%;
 }
 
