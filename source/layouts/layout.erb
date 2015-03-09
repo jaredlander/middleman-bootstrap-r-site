@@ -20,7 +20,7 @@
     <%= javascript_include_tag  "work-bench" %>
   </head>
 
-  <body class="<%= page_classes %>">
+  <body class="<%= page_classes %>" id="page-top" data-spy="scroll" data-target=".navbar-custom">
     <%= yield %>
   </body>
 </html>
