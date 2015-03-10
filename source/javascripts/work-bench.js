@@ -29,6 +29,7 @@
 //////////////////////////////////////////////////////////////////////////
 //= require 'lib/jquery'
 //= require 'lib/bootstrap'
+//= require 'lib/lightbox.min'
 //= require 'lib/jquery.easing.min'
 //= require 'lib/jquery.scrollTo'
 //= require 'lib/wow.min'
