@@ -6,7 +6,6 @@
 
 body {
     width: 100%;
-    height: 100%;
     font-family: 'Lato',sans-serif;
   font-weight: 300;
     color: #666;
@@ -86,7 +85,7 @@ a:focus {
 .brought-brand {
   height: 40px;
   padding-top: 32%;
-  padding-bottom: 5%;
+  padding-bottom: 13%;
   font-size: 18px;
   line-height: 1em;
   text-align: center;
@@ -429,6 +428,7 @@ hr {
 .boxed-grey {
   background: #f9f9f9;
   padding: 20px;
+  padding-bottom: 10px;
 }
 
 .team h5 {
@@ -468,29 +468,22 @@ hr {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    background: #3bbec0;
+/*    background: #3bbec0;*/
   color: #fff;
-    -webkit-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
 }
 .team-social a i{
   text-align: center;
   margin:0;
   padding:0;
+  color: #666;
+    -webkit-transition: color .1s ease-in-out;
+    transition: color .1s ease-in-out;
 }
-.team-social .social-facebook a{background: #3873ae;}
-.team-social .social-twitter a{background: #62c6f8;}
-.team-social .social-dribble a{background: #d74980;}
-.team-social .social-deviantart a{background: #8da356;}
-.team-social .social-google a{background: #000;}
-.team-social .social-vimeo a{background: #51a6d3;}
-.team-social .social-facebook a:hover{background: #4893ce;}
-.team-social .social-twitter a:hover{background: #82e6ff;}
-.team-social .social-dribble a:hover{background: #f769a0;}
-.team-social .social-deviantart a:hover{background: #adc376;}
-.team-social .social-google a:hover{background: #333;}
-.team-social .social-vimeo a:hover{background: #71c6f3;}
-
+.team-social .social-twitter a i:hover{color: #00aced;}
+.team-social .social-linkedin a i:hover{color: #007bb6;}
+.team-social .social-link a i:hover{color: black;}
 
 /* ===========================
 --- Services
@@ -501,7 +494,7 @@ hr {
 }
 
 .service-desc {
-  padding-top: 75px;
+  padding-top: 100px;
 }
 
 .service-desc h5 {
@@ -928,6 +921,7 @@ footer {
   letter-spacing: 1px;
   text-align: left;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 #second-child {
@@ -941,6 +935,7 @@ footer {
   letter-spacing: 1px;
   text-align: left;
   line-height: 45px;
+  text-align: center;
 }
 
 .tickets {
@@ -991,4 +986,31 @@ footer {
   vertical-align: center;
 }
 
+.overlay {
+   background:transparent;
+   position:relative;
+   width:80%;
+   height:500px; /* your iframe height */
+   top:500px;  /* your iframe height */
+   margin-top:-500px;  /* your iframe height */
+   margin-left: 80px;
+}
 
+#speakers {
+  background-color: #f9f9f9;
+}
+
+#r-meetup-footer {
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  border: solid white 3px;
+  margin-left: 10px;
+}
+
+#r-meetup-footer:hover {
+  background-color: white;
+  color: #c81e1e;
+}
