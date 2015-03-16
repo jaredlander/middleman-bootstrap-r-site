@@ -61,6 +61,10 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
 
+           @media(max-width:767px) {
+  background-color: rgba(255,255,255,.7);
+  }
+
 }
 
 .navbar-brand {
@@ -77,6 +81,9 @@ a:focus {
   color: black;
   font-size: 20px;
   line-height: 40px;
+    @media(max-width:767px) {
+  font-size: 15px;
+  }
 }
 
 .brought-brand {
@@ -89,6 +96,10 @@ a:focus {
   font-size: 18px;
   line-height: 1em;
   text-align: center;
+@media(max-width:767px) {
+    padding-top: 28%;
+  padding-bottom: 17%;
+}
 }
 
 .brought-brand h1{
@@ -97,6 +108,13 @@ a:focus {
   line-height: 40px;
   font-weight: 300;
   letter-spacing: 4px;
+      @media(max-width:767px) {
+  font-size: 13px;
+  line-height: 19px;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  }
 }
 
 .brought-brand:focus {
@@ -118,6 +136,8 @@ a:focus {
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
     background-color: rgba(0,0,0,0);
+
+
 }
 
 
@@ -142,6 +162,9 @@ a:focus {
   font-weight: 400;
   border: solid #c81e1e 3px;
   margin-left: 10px;
+@media(max-width:767px) {
+  margin-right: 10px;
+}
 }
 
 #last-child-navbar:hover {
@@ -214,12 +237,13 @@ a:focus {
 /*    outline: 0;
     background-color: none;*/
    background-color: rgba(255,255,255,0);
+
 }
 
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 14px;
-    color: #fff;
+    color: black;
 }
 
 .navbar-toggle:focus,
@@ -330,6 +354,11 @@ hr {
   display:block;
     position:relative;
     z-index:120;
+
+      @media(max-width:991px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 
@@ -338,6 +367,15 @@ hr {
   color: black;
   font-weight: 400;
   letter-spacing: 3px;
+@media(max-width:767px) {
+  font-size: 23px;
+  }
+
+@media(max-width:991px) {
+  padding-top: 40px;
+  }
+
+
 }
 .section-heading i {
   margin-bottom: 20px;
@@ -433,10 +471,16 @@ hr {
 
 .team h5 {
   margin-bottom: 10px;
+  @media(max-width:991px) {
+  min-height: 35px;
+}
 }
 
 .team p.subtitle {
   margin-bottom: 10px;
+  @media(max-width:991px) {
+    display:none;
+  }
 }
 
 .avatar {
@@ -495,6 +539,9 @@ hr {
 
 .service-desc {
   padding-top: 100px;
+    @media(max-width:767px) {
+  padding-top: 50px;
+  }
 }
 
 .service-desc h5 {
@@ -868,6 +915,7 @@ a,.tp-caption a.btn:hover {
 }
 .top-nav-collapse {
   background-color: rgba(255,255,255,.7);
+
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
@@ -922,6 +970,9 @@ footer {
   text-align: left;
   margin-bottom: 20px;
   text-align: center;
+  @media(max-width:767px) {
+  font-size: 23px;
+  }
 }
 
 #second-child {
@@ -936,6 +987,9 @@ footer {
   text-align: left;
   line-height: 45px;
   text-align: center;
+  @media(max-width:767px) {
+  font-size: 15px;
+  }
 }
 
 .tickets {
@@ -1014,4 +1068,9 @@ footer {
   background-color: white;
   color: #c81e1e;
 }
+
+.speaker-page {
+  padding-bottom: 50px;
+}
+
 
