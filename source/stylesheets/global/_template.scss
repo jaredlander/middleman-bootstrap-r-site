@@ -413,10 +413,20 @@ hr {
   position:relative;
   background: image-url("r-conference-bg.jpg") no-repeat top center;
   background-size: 100%;
+
+  @media(max-width:446px) {
+  background: image-url("bg-mobile-r.jpg") no-repeat top center;
+  background-size: 100%;
+  height: 100%;
+  position:relative;
+  }
 }
 
 #intro.intro {
   padding:20% 0 0 0;
+@media(max-width:446px) {
+    padding: 54% 0 0 0;
+}
 }
 
 .intro .slogan {
