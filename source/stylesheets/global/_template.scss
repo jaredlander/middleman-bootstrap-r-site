@@ -333,7 +333,6 @@ a:focus {
 /* misc */
 hr {
   margin-top: 10px;
-  border: none;
 }
 
 /* margins */
@@ -1083,4 +1082,9 @@ footer {
   padding-bottom: 50px;
 }
 
+.agenda-row {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
