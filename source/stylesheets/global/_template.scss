@@ -1134,5 +1134,119 @@ footer {
   }
 }
 
+#index-wb-newsletter {
+  background-color: #c81e1e;
+
+  h2 {
+    color: white;
+    font-size: 15px;
+    padding-top: 25px;
+  }
+
+  .newsletter-title {
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 65%;
+    @media screen and (max-width: 606px) {
+      padding-left: 21px;
+      padding-right: 21px;
+      width: 95%;
+    }
+  }
+
+  .avenir-demi {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 24px;
+    @media screen and (max-width: 768px) {
+      text-align:center;
+      }
+  }
+
+  .newsletter-text {
+    width: 60%;
+    margin: 0px auto 0 auto;
+    padding-bottom: 25px;
+    padding-top: 0px;
+  }
+
+  form {
+    input:focus {
+      outline: none;
+      color: #c81e1e;
+    }
+
+    ::-webkit-input-placeholder {
+       color: #c81e1e;
+       text-transform: none;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+       color: #c81e1e;
+       text-transform: none;
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+       color: #c81e1e;
+       text-transform: none;
+    }
+
+    :-ms-input-placeholder {
+       color: #c81e1e;
+       text-transform: none;
+    }
+    .email-input {
+      font-size: 17px;
+      width: 65%;
+      color: #c81e1e;
+      letter-spacing: 2px;
+      background-color: #FCFCFA;
+      border: none;
+      padding: 13px 10px 12px 10px;
+      margin-right: 10%;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        margin-top: 15px;
+      }
+    }
+    .email-sign-up {
+      background-color: #c81e1e;
+      color: white;
+      font-family: lato;
+      font-size: 13px;
+      border: white 2px solid;
+      width: 24%;
+      padding: 10px;
+      margin-bottom: 5px;
+      letter-spacing: 2px;
+      height: 45px;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        margin: 20px 0px 0px;
+      }
+    }
+    .email-sign-up:hover {
+      background-color: white;
+      color: red;
+      letter-spacing: 2px;
+      font-family: lato;
+      font-size: 13px;
+      border: white 2px solid;
+      width: 24%;
+      padding: 10px;
+      margin-bottom: 5px;
+      height: 45px;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        margin: 20px 0px 0px;
+      }
+    }
+  }
+}
+
 
 
