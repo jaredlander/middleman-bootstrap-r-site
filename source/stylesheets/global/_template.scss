@@ -333,7 +333,6 @@ a:focus {
 /* misc */
 hr {
   margin-top: 10px;
-  border: none;
 }
 
 /* margins */
@@ -413,10 +412,20 @@ hr {
   position:relative;
   background: image-url("r-conference-bg.jpg") no-repeat top center;
   background-size: 100%;
+
+  @media(max-width:446px) {
+  background: image-url("bg-mobile-r.jpg") no-repeat top center;
+  background-size: 100%;
+  height: 100%;
+  position:relative;
+  }
 }
 
 #intro.intro {
   padding:20% 0 0 0;
+@media(max-width:446px) {
+    padding: 54% 0 0 0;
+}
 }
 
 .intro .slogan {
@@ -469,6 +478,10 @@ hr {
   padding-bottom: 10px;
 }
 
+.team-1 h5{
+
+}
+
 .team h5 {
   margin-bottom: 10px;
   @media(max-width:991px) {
@@ -478,6 +491,11 @@ hr {
 
 .team p.subtitle {
   margin-bottom: 10px;
+  margin-top: 10px;
+  min-height: 50px;
+  @media(max-width:1199px) {
+    font-size: 12px;
+  }
   @media(max-width:991px) {
     display:none;
   }
@@ -538,7 +556,7 @@ hr {
 }
 
 .service-desc {
-  padding-top: 100px;
+  padding-top: 50px;
     @media(max-width:767px) {
   padding-top: 50px;
   }
@@ -1072,5 +1090,163 @@ footer {
 .speaker-page {
   padding-bottom: 50px;
 }
+
+.agenda-row {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+      display:block !important;
+  }
+}
+
+#index-wb-newsletter {
+  background-color: #c81e1e;
+
+  h2 {
+    color: white;
+    font-size: 15px;
+    padding-top: 25px;
+  }
+
+  .newsletter-title {
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 90%;
+    @media screen and (max-width: 606px) {
+      padding-left: 21px;
+      padding-right: 21px;
+      width: 60%;
+    }
+  }
+
+  .avenir-demi {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 24px;
+    @media screen and (max-width: 768px) {
+      text-align:center;
+      }
+  }
+
+  .newsletter-text {
+    width: 60%;
+    margin: 0px auto 0 auto;
+    padding-bottom: 25px;
+    padding-top: 0px;
+  }
+
+  form {
+    input:focus {
+      outline: none;
+      color: #c81e1e;
+    }
+
+    ::-webkit-input-placeholder {
+       color: #c81e1e;
+       text-transform: none;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+       color: #c81e1e;
+       text-transform: none;
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+       color: #c81e1e;
+       text-transform: none;
+    }
+
+    :-ms-input-placeholder {
+       color: #c81e1e;
+       text-transform: none;
+    }
+    .email-input {
+      font-size: 17px;
+      width: 65%;
+      color: #c81e1e;
+      letter-spacing: 2px;
+      background-color: #FCFCFA;
+      border: none;
+      padding: 13px 10px 12px 10px;
+      margin-right: 10%;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        margin-top: 15px;
+      }
+    }
+    .email-sign-up {
+      background-color: #c81e1e;
+      color: white;
+      font-family: lato;
+      font-size: 13px;
+      border: white 2px solid;
+      width: 24%;
+      padding: 10px;
+      margin-bottom: 5px;
+      letter-spacing: 2px;
+      height: 45px;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        margin: 20px 0px 0px;
+      }
+    }
+    .email-sign-up:hover {
+      background-color: white;
+      color: red;
+      letter-spacing: 2px;
+      font-family: lato;
+      font-size: 13px;
+      border: white 2px solid;
+      width: 24%;
+      padding: 10px;
+      margin-bottom: 5px;
+      height: 45px;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        margin: 20px 0px 0px;
+      }
+    }
+  }
+}
+
 
 
