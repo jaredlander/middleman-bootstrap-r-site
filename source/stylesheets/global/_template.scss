@@ -1079,7 +1079,7 @@ footer {
   text-transform: uppercase;
   font-weight: 400;
   border: solid white 3px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 #r-meetup-footer:hover {
@@ -1095,6 +1095,7 @@ footer {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 992px) {
