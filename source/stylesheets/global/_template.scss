@@ -196,6 +196,7 @@ a:focus {
 
 .navbar-custom ul.nav ul.dropdown-menu {
     border-radius: 0;
+      text-align: center;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li {
@@ -213,6 +214,7 @@ a:focus {
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
   background: #fefefe;
+
 }
 
 .navbar-custom.top-nav-collapse ul.nav ul.dropdown-menu li a {
@@ -937,7 +939,8 @@ a,.tp-caption a.btn:hover {
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
-  color: #67b0d1;
+  color: #c81e1e;
+  text-align: center;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
